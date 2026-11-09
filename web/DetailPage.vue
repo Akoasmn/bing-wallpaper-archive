@@ -10,7 +10,7 @@ const status = ref('loading')
 const reload = ref(0)
 
 watch([() => props.date, reload], async ([date], _, onCleanup) => {
-  document.title = '壁纸详情 · 必应每日一图'
+  document.title = '壁纸详情 · 必应壁纸档案'
   record.value = null
   if (!/^\d{4}-\d{2}-\d{2}$/.test(date)) {
     status.value = 'missing'
@@ -26,7 +26,7 @@ watch([() => props.date, reload], async ([date], _, onCleanup) => {
     if (!current) return
     record.value = entries.find(item => item.date === date) ?? null
     status.value = record.value ? 'ready' : 'missing'
-    if (record.value) document.title = `${record.value.title} · 必应每日一图`
+    if (record.value) document.title = `${record.value.title} · 必应壁纸档案`
   } catch {
     if (current) status.value = 'error'
   }
