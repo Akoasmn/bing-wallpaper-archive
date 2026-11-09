@@ -1,6 +1,13 @@
 node_modules
+.pnpm-store/
+dist/
+.archive/
+.test-bing-*/
+.env.local
+.env.*.local
 .htaccess
 .user.ini
 
+# Local credentials from legacy installations
 api/php/config.php
 js/config.js
