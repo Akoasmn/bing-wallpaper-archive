@@ -4,6 +4,20 @@
 
 每天归档一张必应中国区的 1920×1080 壁纸。Vue 页面展示最新图片、按月分页的历史列表和图片详情。普通下载使用站点归档图，UHD 入口指向必应官方图片地址。
 
+## 界面示例
+
+### 首页与历史归档
+
+![桌面首页展示最新壁纸和按月浏览的历史列表](docs/screenshots/home.jpg)
+
+### 壁纸详情与下载
+
+![壁纸详情展示日期、版权信息、高清下载与 UHD 原图入口](docs/screenshots/detail.jpg)
+
+### 移动端
+
+<img src="docs/screenshots/mobile.jpg" alt="手机上浏览最新壁纸和历史归档的页面" width="360">
+
 ## 本地运行
 
 使用 Node.js 24 和 `package.json` 指定的 pnpm 版本。
@@ -43,4 +57,4 @@ pnpm preview
 
 ## 来源与许可
 
-本项目源自 [androidmumo/Bing-upyun](https://github.com/androidmumo/Bing-upyun)，旧版由 [XyoZang](https://xenns.com/) 二次开发。项目代码许可见 [GPL-3.0](LICENSE)。壁纸来自 Microsoft Bing，版权归各图片权利人所有。
+项目代码许可见 [GPL-3.0](LICENSE)。壁纸来自 Microsoft Bing，版权归各图片权利人所有。
