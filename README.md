@@ -53,7 +53,7 @@ pnpm preview
 | `archive` 分支的 `metadata/months/YYYY-MM.json` | 月度原始记录 |
 | `metadata/index.json` 和 `metadata/latest.json` | 从月度记录生成的月份索引和最新图片 |
 
-构建根据月度记录生成完整的 `dist/`。Vue 使用 Hash 路由和相对资源基址，适用于仓库名子路径和站点根路径。历史归档从新版首张成功采集的图片开始积累。动态 API 和画廊单独排期，项目决策见 [重构备忘录](REFACTOR-NOTES.md)。
+构建根据月度记录生成完整的 `dist/`。Vue 使用 Hash 路由和相对资源基址，适用于仓库名子路径和站点根路径。历史列表按实际归档记录展示。动态 API 和画廊单独排期。
 
 ## 来源与许可
 

@@ -3,6 +3,7 @@ node_modules
 dist/
 .archive/
 .test-bing-*/
+/REFACTOR-NOTES.md
 .env.local
 .env.*.local
 .htaccess
