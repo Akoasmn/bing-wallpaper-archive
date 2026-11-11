@@ -13,7 +13,7 @@ defineProps({ record: { type: Object, required: true } })
       下载 1920×1080
     </a>
     <a class="button button-secondary" :href="record.uhdUrl" target="_blank" rel="noopener noreferrer">
-      UHD 官方原图 <span aria-hidden="true">↗</span>
+      4K UHD 官方原图 <span aria-hidden="true">↗</span>
     </a>
   </div>
 </template>

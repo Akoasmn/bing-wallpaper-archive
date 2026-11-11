@@ -73,7 +73,7 @@ onMounted(async () => {
 
 <template>
   <section aria-labelledby="latest-heading">
-    <div class="section-kicker"><span></span> 每日壁纸</div>
+    <div class="section-kicker"><span></span> 必应每日壁纸</div>
     <h1 id="latest-heading" class="page-title">最新壁纸</h1>
     <article v-if="latestStatus === 'ready' && latest" class="hero">
       <RouterLink class="hero-media" :to="{ name: 'detail', params: { date: latest.date } }">
