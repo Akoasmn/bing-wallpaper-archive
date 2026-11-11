@@ -8,15 +8,17 @@
 
 ### 首页与历史归档
 
-![桌面首页展示最新壁纸和按月浏览的历史列表](docs/screenshots/home.jpg)
+首页展示最新壁纸，历史列表支持按月浏览，每页展示 9 张壁纸。下图以 2026 年 10 月的 31 张归档壁纸为例。
+
+![桌面首页展示最新壁纸、月份筛选、9 张历史壁纸和分页按钮](docs/screenshots/home.jpg)
 
 ### 壁纸详情与下载
 
-![壁纸详情展示日期、版权信息、高清下载与 UHD 原图入口](docs/screenshots/detail.jpg)
+![壁纸详情展示日期、版权信息、1920×1080 下载与 4K UHD 官方原图入口](docs/screenshots/detail.jpg)
 
 ### 移动端
 
-<img src="docs/screenshots/mobile.jpg" alt="手机上浏览最新壁纸和历史归档的页面" width="360">
+<img src="docs/screenshots/mobile.jpg" alt="手机上浏览最新壁纸、按月筛选的多张历史壁纸和分页按钮" width="360">
 
 ## 本地运行
 
