@@ -80,7 +80,7 @@ time { font-variant-numeric: tabular-nums; font-size: 0.85rem; color: var(--mute
   .frame { width: calc(100% - 32px); }
   .header-inner { min-height: 59px; gap: 8px; }
   .brand { gap: 6px; font-size: 0.9rem; }
-  .brand svg { width: 23px; height: 23px; }
+  .brand img { width: 23px; height: 23px; }
   .header-inner nav a { font-size: 0.82rem; }
   .wallpaper-grid { grid-template-columns: 1fr; }
   .footer-inner { flex-wrap: wrap; gap: 8px; }

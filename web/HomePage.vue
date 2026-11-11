@@ -64,7 +64,7 @@ watch([month, reloadMonth], async ([selected], _, onCleanup) => {
 }, { immediate: true })
 
 onMounted(async () => {
-  document.title = '必应壁纸档案'
+  document.title = '必应每日壁纸 | Bing Wallpaper'
   await Promise.all([refreshLatest(), refreshIndex()])
   await nextTick()
   if (route.name === 'home' && route.hash === '#history') document.getElementById('history')?.scrollIntoView()
